@@ -10,7 +10,7 @@ var beatTheOdds = function() {
         "<p class='card-text'>Beat the Odds was a project designed to take historic NFL games, condense them down into a two minute window, and show the game graphically. The user is then able to place a bet on the teams displayed, with a payout decided by score differential.</p>" +
         "<a href='https://jaykrauss.github.io/BeatTheOdds/' class='btn btn-primary'>Check it out!</a>" +
         " </div>" +
-    "</div>")
+    "</div>");
 }
 
 var simpsonsTrivia = function() {
@@ -25,7 +25,7 @@ var simpsonsTrivia = function() {
       "<p class='card-text'>For the Simpsons fan that has been everywhere else, we have a Simpsons trivia game. Users progress through 20 questions of varying difficulty, then are given a grade (represented by 8 classic characters) based on their score.</p>" +
       "<a href='https://jaykrauss.github.io/TriviaGame/' class='btn btn-primary'>Check it out!</a>" +
    "</div>" +
-  "</div>")
+  "</div>");
 }
 
 var gifSplosion = function(){
@@ -40,9 +40,28 @@ var gifSplosion = function(){
       "<p class='card-text'>A simple gify-API call to generate gif images for a given show. Users are able to find their favorite shows in gif form!</p>" +
       "<a href='https://jaykrauss.github.io/APIgify/' class='btn btn-primary'>Check it out!</a>" +
     "</div>" +
-  "</div>")
+  "</div>");
 }
 
 var home = function(){
-    $('#screen').html('');
+    $('#screen').html("");
+}
+
+var basicInfo = function(){
+  $('#screen').html("<div class='card-body'>" +
+    "<center>" +
+    "<h5 class='card-title'>Basic Information</h5>" +
+    "</center>" +
+    "<p class='card-text'>A student and lover of learning, I have been transitioning my life drastically in recent months. From a tech manager to a mechanic and service manager, I have worn many hats, most recently the hat of web developer. Having been a part of a rigorous coding bootcamp at University of Richmond, I have learned many new things, and acquired many new skills.</p>" +
+    "<p class='card-text'>I have always been taught that in this life there are but a few definites, not including death or taxes: You are never done learning, if you aren't early you're late, and if you aren't the hardest working person in the room, you aren't working hard enough.</p>" +
+    "<p class='card-text'>As a budding developer, I am always looking for ways to improve and to learn, to build my growing list of skills.</p>"
+  );
+}
+
+var workExperience = function(){
+  $('#screen').html("");
+}
+
+var awards = function(){
+  $('#screen').html("");
 }
