@@ -42,3 +42,7 @@ var gifSplosion = function(){
     "</div>" +
   "</div>")
 }
+
+var home = function(){
+    $('#screen').html('');
+}
