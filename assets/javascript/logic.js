@@ -78,21 +78,27 @@ var workExperience = function(){
   <div class='card-body col-md-4'>
   <h4 class='card-title'>Rivers West Design</h4>
   <p class='card-text'>Founder, Developer<br>
-  Dates Employed: Sep 2017 – Present <br></p>
+  Dates Employed: Sep 2017 – Present <br>
+  <a href='http://www.riverswestdesign.com'>Rivers West Design</a>
+  </p>
   </div>
 
   <div class='card-body col-md-4'>
   <h4 class='card-title'>My.Com</h4>
   </center>
   <p class='card-text'>Community Contributor<br>
-  Dates Employed: Aug 2017 – Present <br></p>
+  Dates Employed: Aug 2017 – Present <br>
+  <a href='http://www.my.com'>My.Com</a>
+  </p>
   </div>
 
   <div class='card-body col-md-4'>
   <h4 class='card-title'>AutoZone</h4>
   </center>
   <p class='card-text'>Commercial Sales Manager<br>
-  Dates Employed: Mar 2017 – Present <br></p>
+  Dates Employed: Mar 2017 – Present <br>
+  <a href='http://www.autozone.com'>AutoZone</a>
+  </p>
   </div>
 
 </div>
@@ -103,24 +109,33 @@ var workExperience = function(){
   <h4 class='card-title'>Firestone</h4>
   </center>
   <p class='card-text'>Service Manager<br>
-  Dates Employed: Dec 2014 – Mar 2017 <br></p>
+  Dates Employed: Dec 2014 – Mar 2017 <br>
+  <a href='http://www.firestone.com'>Firestone</a>
+  </p>
   </div>
 
   <div class='card-body col-md-4'>
   <h4 class='card-title'>MarketSource</h4>
   </center>
   <p class='card-text'>Sales Manager<br>
-  Dates Employed: Dec 2012 – Dec 2014 <br></p>
+  Dates Employed: Dec 2012 – Dec 2014 <br>
+  <a href='http://www.marketsource.com'>MarketSource</a>
+  </p>
   </div>
 
   <div class='card-body col-md-4'>
   <h4 class='card-title'>We R Wireless</h4>
   </center>
   <p class='card-text'>Store Manager<br>
-  Dates Employed: Dec 2011 – Jul 2012 <br></p>
+  Dates Employed: Dec 2011 – Jul 2012 <br>
+  <a href='http://www.werwireless.com'>We R Wireless</a>
+  </p>
   </div>
-
 </div>
+<br>
+<center>
+<p>Find more experience information on my LinkedIn!</p>
+</center>
   `);
 }
 
