@@ -59,11 +59,11 @@ var basicInfo = function(){
   $('#screen').html(`
     <div class='card-body'>
     <center>
-    <h4 class='card-title'>Basic Information</h4>
+      <h4 class='card-title'>Basic Information</h4>
     </center>
-    <p class='card-text'>A student and lover of learning, I have been transitioning my life drastically in recent months. From a tech manager to a mechanic and service manager, I have worn many hats, most recently the hat of web developer. Having been a part of a rigorous coding bootcamp at University of Richmond, I have learned many new things, and acquired many new skills.</p>
-    <p class='card-text'>I have always been taught that in this life there are but a few definites, not including death or taxes: You are never done learning, if you aren't early you're late, and if you aren't the hardest working person in the room, you aren't working hard enough.</p>
-    <p class='card-text'>As a budding developer, I am always looking for ways to improve and to learn, to build my growing list of skills.</p>
+      <p class='card-text'>A student and lover of learning, I have been transitioning my life drastically in recent months. From a tech manager to a mechanic and service manager, I have worn many hats, most recently the hat of web developer. Having been a part of a rigorous coding bootcamp at University of Richmond, I have learned many new things, and acquired many new skills.</p>
+      <p class='card-text'>I have always been taught that in this life there are but a few definites, not including death or taxes: You are never done learning, if you aren't early you're late, and if you aren't the hardest working person in the room, you aren't working hard enough.</p>
+      <p class='card-text'>As a budding developer, I am always looking for ways to improve and to learn, to build my growing list of skills.</p>
   `);
 }
 
@@ -72,7 +72,7 @@ var workExperience = function(){
   <center>
     <h2>Experience</h2>
   </center>
-<br><br>
+<br>
 <div class='row'>
 
   <div class='card-body col-md-4'>
