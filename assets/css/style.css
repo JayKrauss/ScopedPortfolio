@@ -5,6 +5,15 @@ body {
     background-size: cover;
     background-color: black;
 }
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Cinzel', serif;
+}
+
 #main {
     background-image: url('../../assets/images/mainscreen.png');
     background-size: contain;
