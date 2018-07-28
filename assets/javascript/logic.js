@@ -1,5 +1,6 @@
 var beatTheOdds = function() {
-    $('#screen').html(`
+    $('#monitorscreen').html(`
+    <br><br><br>
     <div class='col-md-12 beat'>
     <center>
         <img src='assets/images/beattheodds.gif' id='beatgif'>
@@ -16,7 +17,8 @@ var beatTheOdds = function() {
 }
 
 var simpsonsTrivia = function() {
-    $('#screen').html(`
+    $('#monitorscreen').html(`
+    <br><br><br>
     <div class='col-md-12 simpsons'>
     <center>
     <img src='assets/images/simpsonstrivia.gif' id='simpsonsgif'>
@@ -33,7 +35,8 @@ var simpsonsTrivia = function() {
 }
 
 var gifSplosion = function(){
-    $('#screen').html(`
+    $('#monitorscreen').html(`
+    <br><br><br>
     <div class='col-md-12 gify'>
     <center>
     <img src='assets/images/gify.png' id='gify'>
@@ -50,13 +53,13 @@ var gifSplosion = function(){
 }
 
 var home = function(){
-    $('#screen').html(`
+    $('#monitorscreen').html(`
     
     `);
 }
 
 var basicInfo = function(){
-  $('#screen').html(`
+  $('#monitorscreen').html(`
     <div class='card-body'>
     <center>
       <h4 class='card-title'>Basic Information</h4>
@@ -68,7 +71,7 @@ var basicInfo = function(){
 }
 
 var workExperience = function(){
-  $('#screen').html(`
+  $('#monitorscreen').html(`
   <center>
     <h2>Experience</h2>
   </center>
@@ -124,11 +127,11 @@ var workExperience = function(){
   </div>
 
   <div class='card-body col-md-4'>
-  <h4 class='card-title'>We R Wireless</h4>
+  <h4 class='card-title'>Sprint</h4>
   </center>
   <p class='card-text'>Store Manager<br>
   Dates Employed: Dec 2011 – Jul 2012 <br>
-  <a href='http://www.werwireless.com'>We R Wireless</a>
+  <a href='http://www.sprint.com'>Sprint</a>
   </p>
   </div>
 </div>
@@ -140,7 +143,68 @@ var workExperience = function(){
 }
 
 var awards = function(){
-  $('#screen').html(`
-  
+  $('#monitorscreen').html(`
+  <center>
+    <h2>Awards and Proud Moments</h2>
+    <p>(In no particular order)</p>
+  </center>
+
+    <div class='row'>
+
+    <div class='card-body col-md-4'>
+    <h4 class='card-title'>Firestone Top 10</h4>
+    </center>
+    <p class='card-text'>
+      As a first-year service manager, we ended the fiscal year of 2015 at number 10 in the company of 2654.
+    </p>
+    </div>
+
+    <div class='card-body col-md-4'>
+    <h4 class='card-title'>Twitch Afflilate Acceptance</h4>
+    </center>
+    <p class='card-text'>
+      Achieved Affiliate status with Twitch within the first two months of streaming.
+    </p>
+    </div>
+
+    <div class='card-body col-md-4'>
+    <h4 class='card-title'>Valley Forge Military Academy Graduation</h4>
+    </center>
+    <p class='card-text'>
+    Having successfully completed the academic and phsyical requirements of Valley Forge, I received my diploma and accolade. 
+    </p>
+    </div>
+    </div>
+    <br>
+    <div class='row'>
+
+    <div class='card-body col-md-4'>
+    <h4 class='card-title'>Released First Game</h4>
+    </center>
+    <p class='card-text'>
+    Working with a small team of three, we designed, created, and published our first mobile game under Rivers West Design.
+    </p>
+    </div>
+
+    <div class='card-body col-md-4'>
+    <h4 class='card-title'>First Best in Show</h4>
+    </center>
+    <p class='card-text'>
+    Having completed full restoration on my 1973 Mustang, it was voted Best in Show in our first major car show.
+    </p>
+    </div>
+
+    <div class='card-body col-md-4'>
+    <h4 class='card-title'>Coding Bootcamp</h4>
+    </center>
+    <p class='card-text'>
+    Going all-in, adapted for a total career change, attended a coding bootcamp and became certified as a Full Stack Web Developer.
+    </p>
+    </div>
+  </div>
+    <br>
+    <center>
+      <p>Find more experience information on my LinkedIn!</p>
+    </center> 
   `);
 }
